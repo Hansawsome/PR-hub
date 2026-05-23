@@ -1,0 +1,23 @@
+# --- OS / editor ---
+.DS_Store
+*.log
+
+# --- gstack session data ---
+.gstack/
+
+# --- NDA / personal source material (do NOT publish) ---
+source/
+*.pdf
+375caac2cd7317aaf1c5d58175bed063704bb84d.JPG
+
+# --- Node / build ---
+node_modules/
+dist/
+web/node_modules/
+web/dist/
+.vite/
+
+# --- env / secrets ---
+.env
+.env.*
+*.local
