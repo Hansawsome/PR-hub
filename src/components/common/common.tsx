@@ -111,7 +111,7 @@ export function ProfilePortrait({ className = "" }: { className?: string }) {
   const { t } = useLang();
   return (
     <figure className={`hero-portrait glow-border ${className}`}>
-      <img src="/hans-profile.jpg" alt="한성혁 (Hans) — Security Professional" loading="lazy" />
+      <img src={`${import.meta.env.BASE_URL}hans-profile.jpg`} alt="한성혁 (Hans) — Security Professional" loading="lazy" />
       <span className="portrait-corner tl" />
       <span className="portrait-corner tr" />
       <span className="portrait-corner bl" />
